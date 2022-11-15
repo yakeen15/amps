@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-#Shajiratul Yakeen
+#Shajiratul Yaqueen
 #AMTH batch 6
 #Purpose : prints a plot of a given function over a certain interval
 #Inputs : function, interval
