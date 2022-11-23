@@ -9,4 +9,6 @@ We compile both polyvect.cpp, which contains the function definitions for adding
 
 ![](https://raw.githubusercontent.com/yakeen15/amps/main/numerical%20methods/lagrange_plot.PNG)  
 
+We can now use our polyplotter.py and pointplotter.py scripts to plot the polynomial and the points together on the same graph to see if we get the desired results.  
 
+![](https://raw.githubusercontent.com/yakeen15/amps/main/plotting%20and%20graphs/lagrange_fitting.png)
