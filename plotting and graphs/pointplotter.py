@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from polyplotter import polyplot
 
-cords = open("C:\Coding\CPP\coordinates.txt")
-coef = open("C:\Coding\CPP\coefficients.txt")
+cords = open("...\points.txt")
+coef = open("...\lagrange_coefficients.txt")
 
 n = int(cords.readline())
 
