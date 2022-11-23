@@ -9,6 +9,6 @@ We compile both polyvect.cpp, which contains the function definitions for adding
 
 ![](https://raw.githubusercontent.com/yakeen15/amps/main/numerical%20methods/lagrange_plot.PNG)  
 
-We can now use our polyplotter.py and pointplotter.py scripts to plot the polynomial and the points together on the same graph to see if we get the desired results.  
+We can now use our polyplotter.py and pointplotter.py scripts to plot the polynomial and the points together on the same graph to see if we get the desired results. The polyplotter.py file contains a function definition that accepts a list of coefficient and an x value as an input to find the value of the polynomial at that specific point, while the pointplotter.py plots both the data points and the polynomial obtained from interpolation from reading the files produced by the earlier code.    
 
 ![](https://raw.githubusercontent.com/yakeen15/amps/main/plotting%20and%20graphs/lagrange_fitting.png)
