@@ -1,5 +1,5 @@
 ## Fitting a curve to 9 points using Lagrange interpolating polynomial  
-Suppose we wish to find the curve that goes through 9 points. The 9 points are  
+Suppose we wish to find the curve that goes through 9 points. The 9 points are shown below.  
 
 
 ![](https://raw.githubusercontent.com/yakeen15/amps/main/numerical%20methods/points.PNG)
