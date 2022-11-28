@@ -18,7 +18,7 @@ The following gifs are graphs of the period functions *x<sup>3</sup>*, *x<sup>2<
 
 ![](https://github.com/yakeen15/amps/blob/main/complex%20analysis/fourier%20series/images%20and%20videos/x%20cubed.gif)
 ![](https://github.com/yakeen15/amps/blob/main/complex%20analysis/fourier%20series/images%20and%20videos/x%20squared.gif)
-![]([https://github.com/yakeen15/amps/blob/main/complex%20analysis/images%20and%20videos/absolute%20value%20of%20x.gif](https://github.com/yakeen15/amps/blob/main/complex%20analysis/fourier%20series/images%20and%20videos/absolute%20value%20of%20x.gif))
+![](https://github.com/yakeen15/amps/blob/main/complex%20analysis/fourier%20series/images%20and%20videos/absolute%20value%20of%20x.gif)
 
 We can input piecewise functions as well. Following is the result of of the following inputs.
 
