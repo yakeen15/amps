@@ -14,3 +14,17 @@ The gifs here are the result of the following inputs:
 ***Cosine Series:***
 
 ![](https://github.com/yakeen15/amps/blob/main/complex%20analysis/half%20range%20fourier%20series/images%20and%20videos/cosine.gif)
+
+The code uses **imageio** and **os** modules to create a gif and save the file in the same directory as the code. It creates each frame as a png file, then merges the photos together to create the gif. This is a heavy task, and the execution time depends on the specification of the system. Therefore, proceed at your own risk. You can omit the following blocks of code to skip the saving part:
+```
+        filename = f'{i}.png'
+        filenames.append(filename)
+        plt.savefig(filename)
+    with imageio.get_writer('x cubed.mp4', fps=60) as writer:
+        for filename in filenames:
+            image = imageio.v2.imread(filename)
+            writer.append_data(image)
+    
+    for filename in set(filenames):
+        os.remove(filename)
+```
