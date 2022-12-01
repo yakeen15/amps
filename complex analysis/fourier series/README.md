@@ -26,3 +26,17 @@ We can input piecewise functions as well. Following is the result of of the foll
 
 The function is -1 for *-2<x<0* and 1 for *0<x<1*. Following is the result:
 ![](https://github.com/yakeen15/amps/blob/main/complex%20analysis/fourier%20series/images%20and%20videos/piece.gif)
+
+The dynamic version of the code uses **imageio** and **os** modules to create a gif and save the file in the same directory as the code. It creates each frame as a png file, then merges the photos together to create the gif. This is a heavy task, and the execution time depends on the specification of the system. Therefore, proceed at your own risk. You can omit the following blocks of code to skio the saving part:
+```
+        filename = f'{i}.png'
+        filenames.append(filename)
+        plt.savefig(filename)
+    with imageio.get_writer('x cubed.mp4', fps=60) as writer:
+        for filename in filenames:
+            image = imageio.v2.imread(filename)
+            writer.append_data(image)
+    
+    for filename in set(filenames):
+        os.remove(filename)
+```
