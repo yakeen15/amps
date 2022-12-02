@@ -22,8 +22,8 @@ Plot of SIR model
 #### Simple Harmonic Oscillation  
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Simple%20harmonic%20oscillation/anim/SHO%20visualization.gif)  
 
-#### Double pendulum  
-![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Simple%20harmonic%20oscillation/anim/Double%20Pendulum%20visual.gif)  
+ #### Double Pendulum Visualization
+![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Simple%20harmonic%20oscillation/anim/Double%20pendulum%20visualization.gif)
 
 #### Fire simulation  
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/fire%20simulation/fire%20(1).gif)  
