@@ -28,4 +28,5 @@ Plot of SIR model
 #### Fire simulation  
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/fire%20simulation/fire%20(1).gif)  
 
-####
+#### Traffic simulation
+![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Traffic%20model%20.nb/test_gif(4).gif)
