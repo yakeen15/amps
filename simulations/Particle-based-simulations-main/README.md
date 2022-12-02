@@ -30,3 +30,5 @@ Plot of SIR model
 
 #### Traffic simulation
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Traffic%20model%20.nb/test_gif(4).gif)
+#### Marching squares
+![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Marching%20squares/test_gif.gif)
