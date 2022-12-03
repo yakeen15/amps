@@ -34,4 +34,5 @@ Plot of SIR model
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Marching%20squares/test_gif.gif)
 #### Random data training to fit a model 
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Machine%20learning%20projects/SVD%20data%20train/test_gif(4).gif)
+
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Machine%20learning%20projects/SVD%20data%20train/test_gif(5).gif)
