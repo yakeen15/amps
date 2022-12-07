@@ -50,4 +50,4 @@ program mat_mutiply
 
     !write(*,*)"The sum is ",s
 
-    end program
+    end program mat_multiply
