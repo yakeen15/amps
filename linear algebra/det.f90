@@ -1,4 +1,4 @@
-program fortran_cdi
+program determinant
 
     implicit none
     integer::i,j,k,s,p,q
@@ -26,4 +26,4 @@ program fortran_cdi
 
     write(*,*)"The determinant of the matrix is ",s
 
-end program fortran_cdi
+end program determinant 
