@@ -1,4 +1,4 @@
-program fortran_cdi
+program inverse
     implicit none
     integer::i,j,k,p,q,det
     integer,dimension(3,3)::A,cof
@@ -87,4 +87,4 @@ program fortran_cdi
         write(*,*)""
      end do
 
-    end program fortran_cdi
+    end program inverse
