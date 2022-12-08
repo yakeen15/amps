@@ -5,3 +5,9 @@
 + If both the players make the same move, the round is a draw
 
 ![Rock-paper-scissors](https://user-images.githubusercontent.com/119177863/206527557-ea7ee686-085e-4b9d-bbb3-0fd7fd42288f.png)
+
+### Algorithm :
+![rps_algorithm-1](https://user-images.githubusercontent.com/119177863/206543428-c1328694-01a2-4506-8aff-f5b93527f3a2.jpg)
+
+### Flowchart : 
+![rps_flowchart](https://user-images.githubusercontent.com/119177863/206543478-317ed67b-c87e-4f08-98bd-5a41a823593c.png)
