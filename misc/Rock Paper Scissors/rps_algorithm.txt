@@ -1,0 +1,23 @@
+﻿Problem:
+Make a program that the user can run to play a game of rock paper scissors with the cpu (Best of 5)
+
+
+Input:
+User move at each round
+
+
+Output:
+CPU move at each round, round outcome, points at each round, game outcome
+
+
+Steps:
+1. Set points of both players to 0
+2. While both the points are less than 3 :  
+   1. Read the user move
+   2. Print the user move
+   3. Generate the cpu move randomly
+   4. Check who won the round
+   5. Print the round outcome
+   6. Add points to players accordingly
+   7. Print the points at the end of round
+3. Print game outcome
