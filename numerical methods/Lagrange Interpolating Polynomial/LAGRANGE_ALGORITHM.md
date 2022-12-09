@@ -6,6 +6,8 @@ We can confirm that this equation indeed passes through the specified points, an
 The specialty of the function defined is that, for plugging in $(x_0,y_0)$, the term involving $L_{1}$ vanishes and $L_{0}$ evaluates exactly to 1, so the overall value of the polynomial turns out to be $y_{0}$. This happens for the other point too, and this is the behaviour we want to replicate in our polynomial. Breaking things down, we want a function $L_{i}(x)$ where $i\leq{n}$ such that  
 1. $L_{j}(x_{i}) = 0$ whenever $j\neq{i}$  
 2. $L_{j}(x_{i}) = 1$ whenever $j={i}$  
+
+
 Below is a function of this form, that one could easily find by observation     
 
 $\LARGE L_{j}(x)=\frac{\pi_{i=0,i\neq{j}}^{n}{(x-x_{i})}}{\pi_{i=0,i\neq{j}}^{n}{(x_{j}-x_{i})}}$
