@@ -7,4 +7,4 @@ The specialty of the function defined is that, for plugging in $(x_0,y_0)$, the 
 1. $L_{j}(x_{i}) = 0$ whenever $j\neq{i}$  
 2. $L_{j}(x_{i}) = 1$ whenever $j={i}$  
 Below is a function of this form, that one could easily find by observation  
-$L_{j}(x)=\frac{prod_{i=0,i\neq{j}}^{n}(x-x_{i})}{prod_{i=0,i\neq{j}}^{n}(x_{j}-x_{i})}$
+$\LARGE L_{j}(x)=\frac{\prod_{i=0,i\neq{j}}^{n}(x-x_{i})}{\prod_{i=0,i\neq{j}}^{n}(x_{j}-x_{i})}$
