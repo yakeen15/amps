@@ -15,4 +15,20 @@ Where $\pi$ is the product notation. Now we define our polynomial as $$y = \sum_
 And now we are done with the theory part. Since we have the functions defined, all that is left to do is to take the n+1 points and use those as input to calculate the coefficient functions and then we find the polynomial. We will do a practice run to see how well our formula works in pen and paper.  
 ## Test  
 We have four points, $(1,3) , (2,9) , (3,10)$ and $(4,-1)$. We find the functions $L_{i}(x)$ using the formula.  
+$\large L_{0}=\frac{(x-2)(x-3)(x-4)}{(1-2)(1-3)(1-4)}=\frac{-x^3}{6}+\frac{3x^2}{2}-\frac{13x}{2}+4$  
   
+$\large L_{1}=\frac{(x-1)(x-3)(x-4)}{(2-1)(2-3)(1-4)}=\frac{x^3}{2}-4x^2+\frac{19x}{2}-6$  
+  
+$\large L_{2}=\frac{(x-1)(x-2)(x-4)}{(3-2)(3-2)(3-4)}=\frac{-x^3}{2}+\frac{7x^2}{2}-7x+4$  
+  
+$\large L_{3}=\frac{(x-1)(x-2)(x-3)}{(4-1)(4-2)(4-3)}=\frac{x^3}{6}-x^2+\frac{11x}{6}-1$  
+
+Then for the formula of $y$ we get  
+  
+$y=L_{0}(x)y_0+L_{1}(x)y_1+L_{2}(x)y_2+L_{3}(x)y_3$  
+
+We get four different polynomials from the three coefficient functions, and if we combine them all, we arrive at $y = \frac{7x^3}{6}+\frac{5x^2}{2}+\frac{x}{6}+-1$  
+Whether you realize it or not, it was a huge task to compute 4 different polynomials and then combine them all to finally get a resultant polynomial. However, it would be incredibly tedious to do if one had to do this manually. Indeed, when doing on paper, it is better to find the value of $y$ at a certain point instead of calculating the whole polynomial.  
+But what could we do if we wanted to know the form of the polynomial? Would it be a good idea to calculate all of it manually? Certainly not, when programming exists! Next we are going to discuss about the algorithm used to produce the coefficient of the polynomial.  
+
+##Algorithm
