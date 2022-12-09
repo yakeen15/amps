@@ -2,6 +2,8 @@
 #include <string>
 #include <ctime>
 
+// Irteza Asif
+
 using namespace std;
 
 enum muv{ROCK, PAPER, SCISSORS, null} user_turn, cpu_turn;
