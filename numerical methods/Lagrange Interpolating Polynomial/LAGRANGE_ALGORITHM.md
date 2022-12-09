@@ -12,4 +12,7 @@ Below is a function of this form, that one could easily find by observation
 
 $\LARGE L_{j}(x)=\frac{\pi_{i=0,i\neq{j}}^{n}{(x-x_{i})}}{\pi_{i=0,i\neq{j}}^{n}{(x_{j}-x_{i})}}$  
 Where $\pi$ is the product notation. Now we define our polynomial as $$y = \sum_{i=0}^{n} L_{i}(x)y_i$$  
-And now we are done with the theory part. Since we have the functions defined, all that is left to do is to take the n+1 points and use those as input to calculate the coefficient functions and then we find the polynomial.
+And now we are done with the theory part. Since we have the functions defined, all that is left to do is to take the n+1 points and use those as input to calculate the coefficient functions and then we find the polynomial. We will do a practice run to see how well our formula works in pen and paper.  
+## Test  
+We have four points, $(1,3) , (2,9) , (3,10)$ and $(4,-1)$. We find the functions $L_{i}(x)$ using the formula.  
+  
