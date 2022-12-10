@@ -9,7 +9,7 @@ import matplotlib.pyplot as mpl
 
 #Prompt
 
-u=float(input("Initial Valovity (m/sec)="))
+u=float(input("Initial Velocity (m/sec)="))
 ad=float(input("Angle with ground (deg)="))
 ar=ad*(m.pi/180)
 g=9.8
@@ -26,10 +26,10 @@ R=((u**2)*m.sin(2*ar))/g
 
 print("All About Your Projectile:")
 print("Horizontal displacement after t sec, X=",x,"m")
-print("Vartical displacement after t sec, Y=",y,"m")
+print("Vertical displacement after t sec, Y=",y,"m")
 print("Total Flight Time, T=",T,"sec")
 print("Max Height, H=",H,"m")
-print("horizontal Range",R,"m")
+print("Horizontal Range",R,"m")
 
 
 #Plotting
