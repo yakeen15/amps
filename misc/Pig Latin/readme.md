@@ -18,3 +18,8 @@ Pig Latin is a language game or argot in which words in English are altered, usu
 8. Add "ay" to word
 9. If word has no vowel, add "way" to word
 10. Print the transformed word
+
+### Flowchart![pl_flowchart](https://user-images.githubusercontent.com/119177863/206837721-869ade21-2bbd-4ac1-adee-fcb537591ecb.png)
+
+### How it works![pl1](https://user-images.githubusercontent.com/119177863/206837749-c9d9fb8f-6fc6-4a15-89f7-661425fa040e.gif)
+![pl2](https://user-images.githubusercontent.com/119177863/206837753-5dff3423-a5e3-4d19-8f21-6c4859b39337.gif)
