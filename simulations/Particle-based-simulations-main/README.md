@@ -36,3 +36,5 @@ Plot of SIR model
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Machine%20learning%20projects/SVD%20data%20train/test_gif(4).gif)
 
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/Machine%20learning%20projects/SVD%20data%20train/test_gif(1).gif)
+####Monte carlo approximation of Pi
+![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/monte%20carlo%20pi%20approximation/test_gif(4).gif)
