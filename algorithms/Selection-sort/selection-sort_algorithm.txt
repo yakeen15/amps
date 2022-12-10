@@ -1,0 +1,21 @@
+﻿Problem:
+Sort an integer list in ascending order 
+
+
+Input:
+Size of list
+
+
+Output:
+Sorted list
+
+
+Steps:
+1. Ask user for size of list, echo
+2. Generate a list of the specified size comprising of random integers less than 100
+3. Print the unsorted list
+4. For each of the number in the list, do:
+   1. Find the position of the least component in the unsorted list
+   2. Swap the positions of the least component and the first component in the unsorted list
+   3. Do not consider this least member in the unsorted list anymore (while in the loop)
+5. Print the list which is now sorted
