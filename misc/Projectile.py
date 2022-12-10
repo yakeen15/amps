@@ -40,7 +40,7 @@ Y=u*np.sin(ar)*t-0.5*g*(t**2)
 
 mpl.title("Trajectory of The Projectile")
 mpl.xlabel("Horizontal Dist")
-mpl.ylabel("Vartical Dist")
+mpl.ylabel("Vertical Dist")
 mpl.grid()
 
 mpl.plot(X,Y,linestyle="dashed",color="red")
