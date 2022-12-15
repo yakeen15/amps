@@ -40,4 +40,4 @@ Plot of SIR model
 ![](https://github.com/yakeen15/amps/blob/main/simulations/Particle-based-simulations-main/monte%20carlo%20pi%20approximation/test_gif(4).gif)
 
 #### Kuramoto-sivashinski solution using image processing
-![](https://github.com/yakeen15/amps/tree/main/simulations/Particle-based-simulations-main)
+![](https://github.com/yakeen15/amps/blob/main/simulations/kuramoto-shivashinski%20solution/test_gif(4).gif)
