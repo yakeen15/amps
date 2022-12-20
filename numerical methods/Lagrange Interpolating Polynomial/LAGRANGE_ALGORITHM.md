@@ -31,4 +31,13 @@ We get four different polynomials from the three coefficient functions, and if w
 Whether you realize it or not, it was a huge task to compute 4 different polynomials and then combine them all to finally get a resultant polynomial. However, it would be incredibly tedious to do if one had to do this manually. Indeed, when doing on paper, it is better to find the value of $y$ at a certain point instead of calculating the whole polynomial.  
 But what could we do if we wanted to know the form of the polynomial? Would it be a good idea to calculate all of it manually? Certainly not, when programming exists! Next we are going to discuss about the algorithm used to produce the coefficient of the polynomial.  
 
-##Algorithm
+## Algorithm
+
+**Inputs** : Number of points *n*, *n* ordered pairs of points ($x_i$,$y_i$)
+
+Step 1: Accept inputs
+Step 2: Enter a loop with *i*=0 upto n
+Step 3: Create a variable that will hold the denominator of the &L_i& functions, *p*=1
+Step 4: Enter a loop with *j*=0 upto n
+Step 5: if *i*=*j*, increment *j* and return to Step 5
+Step 6: else, set *p*=p / $(x_i-x_j)$
