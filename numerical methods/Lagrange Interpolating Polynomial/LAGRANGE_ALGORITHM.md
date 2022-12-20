@@ -44,4 +44,5 @@ Step 6: If *i*=*j*, go to Step 8
 Step 7: Else, set *p*=p / $(x_i-x_j)$ and *vec*=*vec*$\times (x-x_j)$  
 Step 8: Increment *j* and go to Step 6  
 Step 9: Set *v*=*v*+*p*$\times$*vec*$\times y_i$  
-Step 10: Increment *i* and go to Step 4 
+Step 10: Increment *i* and go to Step 4  
+Step 11: Output the polynomial *v*
