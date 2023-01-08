@@ -2,7 +2,7 @@ program t
     implicit none
     integer::a(99,99),det
     integer::i,j,n
-
+!bleh
  n=5
 
     do i=1,n
